@@ -21,7 +21,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   });
 })
 
-.config(['$ionicConfigProvider', function($ionicConfigProvider){
+.config(function($ionicConfigProvider){
 	$ionicConfigProvider.tabs.position('bottom');
 }])
 
