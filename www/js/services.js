@@ -62,8 +62,7 @@ angular.module('starter.services', [])
     postDate: 'February 23, 2015',
     notes: 'Enjoys drawing things',
     face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png',
-    postDate: '1',
-    postDate: '5',
+    comment: '5',
   }, {
     id: 1,
     name: 'Max Lynx',
