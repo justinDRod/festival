@@ -62,6 +62,9 @@ angular.module('starter.services', [])
     postDate: 'February 23, 2015',
     notes: 'Enjoys drawing things',
     face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png',
+    embed:null,
+    display:'none',
+    like: '1',
     comment: '5',
   }, {
     id: 1,
@@ -69,6 +72,8 @@ angular.module('starter.services', [])
     postDate: 'February 23, 2015',
     notes: 'Odd obsession with everything',
     face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460',
+    embed:'https://avatars3.githubusercontent.com/u/11214?v=3&s=460',
+    display:null,
     like: '1',
     comment: '5',
   }, {
@@ -77,6 +82,8 @@ angular.module('starter.services', [])
     postDate: 'February 23, 2015',
     notes: 'Wears a sweet leather Jacket. I\'m a bit jealous',
     face: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg',
+    embed:null,
+    display:'none',
     like: '1',
     comment: '5',
   }, {
@@ -85,6 +92,8 @@ angular.module('starter.services', [])
     postDate: 'February 23, 2015',
     notes: 'I think he needs to buy a boat',
     face: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg',
+    embed:null,
+    display:'none',
     like: '1',
     comment: '5',
   }, {
@@ -93,6 +102,8 @@ angular.module('starter.services', [])
     postDate: 'February 23, 2015',
     notes: 'Just the nicest guy',
     face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg',
+    embed:'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg',
+    display:null,
     like: '1',
     comment: '5',
   }];
